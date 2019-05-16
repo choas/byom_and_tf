@@ -1,0 +1,12 @@
+---
+applications:
+- name: xor
+  memory: 1024M
+  buildpack: python_buildpack
+  command: python app.py
+  env:
+    MODEL_NAME: xor
+    MODEL_VERSION: 4
+    DEPLOYMENT_URL: https://mlfproduction-deployment-api.cfapps.eu10.hana.ondemand.com
+  services:
+    - ml
