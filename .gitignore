@@ -7,3 +7,6 @@ share/
 .Python
 .ipynb_checkpoints/
 pip-selfcheck.json
+.DS_Store
+.envrc
+runcurl.sh
