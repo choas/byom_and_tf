@@ -6,7 +6,7 @@ applications:
   command: python app.py
   env:
     MODEL_NAME: xor
-    MODEL_VERSION: 4
+    MODEL_VERSION: 3
     DEPLOYMENT_URL: https://mlfproduction-deployment-api.cfapps.eu10.hana.ondemand.com
   services:
     - ml

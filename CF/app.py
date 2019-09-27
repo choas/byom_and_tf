@@ -10,7 +10,7 @@ from tensorflow_serving.apis import prediction_service_pb2
 APP = Flask(__name__)
 
 MODEL_NAME = str(os.getenv('MODEL_NAME', 'xor'))
-MODEL_VERSION = str(os.getenv('MODEL_NAME', '1'))
+MODEL_VERSION = str(os.getenv('MODEL_VERSION', '3'))
 DEPLOYMENT_URL = str(os.getenv('DEPLOYMENT_URL', ''))
 
 def metadata_transformer(metadata):

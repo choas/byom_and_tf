@@ -10,3 +10,4 @@ pip-selfcheck.json
 .DS_Store
 .envrc
 runcurl.sh
+start_jupyter.sh
